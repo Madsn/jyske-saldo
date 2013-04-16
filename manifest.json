@@ -1,0 +1,16 @@
+{
+    "name": "Jyske-saldo",
+    "description" :"Viser løbende saldo på 'til rådighed' konti",
+    "version": "0.1",
+    "manifest_version": 2,
+    "permissions": [
+       "activeTab"
+      ],
+    "background": {
+       "scripts": ["background.js"],
+       "persistent": false
+    },
+    "browser_action": {
+       "default_title": "Beregn løbende saldo!"
+    }
+}
